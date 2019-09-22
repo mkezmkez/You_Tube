@@ -32,8 +32,8 @@ body {
 
 .channel_info {
   display: grid;
-  grid-template-columns: 3px auto;
-  grid-template-rows: 2px auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   left: 30px;
   position: relative;
   top: 10px;
@@ -51,7 +51,6 @@ body {
   grid-column-start: 2;
   grid-row-end: 3;
   grid-row-start: 1;
-  left: -140px;
   margin-left: 0;
   padding: 0;
   position: relative;
@@ -100,8 +99,8 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 4 auto;
-  grid-template-rows: 20 auto;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 .item1 {
@@ -217,5 +216,5 @@ h1 {
 .subscriber_count {
   color: gray;
   padding: 0;
-  resize: 12px;
+  font-size: 12px;
 }
